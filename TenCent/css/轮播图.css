@@ -1,0 +1,75 @@
+/*清除浏览器默认的内外边距*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#point {
+	/*使浮点能够显示在图片之上*/
+	position: absolute;
+}
+
+/*内敛元素脱离文档流变块元素*/
+#point a {
+	width: 10px;
+	height: 10px;
+	float: left;
+	background-color: blue;
+	margin: 0 5px;
+}
+
+.top_img {
+	width: 100%;
+	height: 621px;
+	position: relative;
+	overflow: hidden;
+}
+
+#imgList {
+	width: 100%;
+	list-style: none;
+	position: absolute;
+}
+#imgList a:hover{
+	background-color: #fff;
+}
+ #imgList img {
+	width: 100%;
+	height: 100%;
+}
+
+#point {
+	position: absolute;
+	bottom: 150px;
+	right: 10px;
+}
+
+#point a {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: royalblue;
+	margin: 0 5px;
+	opacity: 0.5;
+}
+
+#point a:hover {
+	background-color: white;
+}
+.narrow1{
+	    position: absolute;
+	    bottom: 180px;
+	    width: 90px;
+}
+.narrow1 img{
+	width: 100%;
+	    position: absolute;
+}
+.line{
+	position: absolute;
+	    top: 422px;
+	    width: 1200px;
+	    height: 65px;
+	    border-bottom: #e6e6e6 2px solid;
+	}
+}

@@ -1,0 +1,256 @@
+/*改变鼠标图案*/
+.hand {
+	cursor: pointer;
+}
+
+.main {
+	top: 550px;
+	width: 100%;
+	position: absolute;
+	
+}
+
+/*设置缩放图片的时间*/
+.imgChange {
+	transition: 1s;
+}
+
+.newDy {
+	position: absolute;
+	top: 500px;
+	left: 20px;
+	font-family: fangsong;
+	font-size: 35px;
+	color: white;
+}
+
+/*使图片能够整个铺满屏幕*/
+.imgChange img {
+	width: 100%;
+}
+
+/*使文字在图片上方*/
+.text_img1 {
+	padding: 45px 30px;
+	top: 360px;
+	background-color: white;
+	z-index: 2;
+	position: absolute;
+}
+
+/*使盒内元素居中对齐*/
+.box_frist {
+	display: flex;
+	padding: 0 15px;
+	overflow: hidden;
+	justify-content: center;
+}
+
+/*为次盒子设置相对定位*/
+.header_img1 {
+	height: 600px;
+	position: relative;
+}
+
+/*将多余的图片进行隐藏*/
+.header_img1 .conver {
+	overflow: hidden;
+}
+
+/*设置悬停后图片的放大倍数*/
+.header_img1 :hover .imgChange {
+	transform: scale(1.1);
+}
+
+/*设置字体宽度和大小*/
+.main h2 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.main p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+/*设置悬停后的字体颜色*/
+.text_img1:hover h2 {
+	color: #007aff;
+}
+
+/*设置第二个图片的CSS*/
+.text_img2 {
+	display: block;
+	padding: 30px;
+	top: 250px;
+	z-index: 2;
+	color: rgb(247, 252, 253);
+	position: absolute;
+}
+
+/*设置外边距*/
+.header_img2 {
+	width: 370px;
+	margin: 0 10px 10px 10px;
+	background-color: rgb(0, 169, 206);
+	position: relative;
+}
+
+.header_img2 .conver {
+	overflow: hidden;
+}
+
+/*设置悬停后图片的放大倍数*/
+.header_img2 :hover .imgChange {
+	transform: scale(1.1);
+}
+
+/*使图片能够整个铺满屏幕*/
+.img2 img {
+	width: 100%;
+}
+
+/***************************************/
+/*为三栏分布设置CSS*/
+.text_img3 {
+	display: block;
+	padding: 30px;
+	top: 250px;
+	z-index: 2;
+	color: rgb(247, 252, 253);
+	position: absolute;
+}
+
+/*设置外边距*/
+.header_img3 {
+	width: 370px;
+	height: 580px;
+	margin: 8px;
+	background-color: rgb(0, 82, 217);
+	position: relative;
+}
+
+.header_img3 .conver {
+	overflow: hidden;
+}
+
+/*设置悬停后图片的放大倍数*/
+.header_img3 :hover .imgChange {
+	transform: scale(1.1);
+}
+
+.box_second {
+	display: flex;
+	justify-content: center;
+}
+
+/*********************************/
+.box_third {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.header_img4 {
+	width: 750px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.text_img4 {
+	z-index: 2;
+	top: 170px;
+	left: 100px;
+	position: absolute;
+}
+
+.header_img4 .conver {
+	overflow: hidden;
+}
+
+/*设置悬停后图片的放大倍数*/
+.header_img4 :hover .imgChange {
+	transform: scale(1.1);
+}
+
+.box_fifth {
+	display: flex;
+	justify-content: center;
+}
+
+.introImg {
+	overflow: hidden;
+}
+
+/*设置悬停后图片的放大倍数*/
+.introImg :hover {
+	transform: scale(1.1);
+}
+
+/*设置阴影*/
+.imgChange.item::after {
+	display: none;
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(59, 109, 237, 0.5);
+}
+
+.imgChange.item:hover::after {
+	display: block;
+}
+
+.hange {
+	position: absolute;
+	left: 160px;
+	right: 0;
+	top: 120px;
+	width: 0;
+	height: 5px;
+	z-index: 10;
+	transition: all 1.0s;
+	background-color: rgb(248, 250, 252);
+}
+
+.imgChange.item:hover .hange {
+	width: 50px;
+
+}
+
+/*设置字体样式*/
+.box_second h6 {
+	font-size: 35px;
+	position: relative;
+	top: -160px;
+	font-family: serif;
+	color: #e6e6e6;
+	font-weight: 400;
+	left: 100px;
+}
+
+/*设置过渡属性使条块发生变化*/
+.box_second .tranage {
+	position: absolute;
+	display: inline-block;
+	margin: 0 100px;
+	border-radius: 5px;
+	width: 0;
+	height: 2px;
+	top: 160px;
+	background-color: white;
+	transition: width 1s;
+}
+.box_second:hover .tranage{
+	width: 140px;
+}
+.SECOND{
+	display: flex;
+	justify-self: center;
+}
+.video{
+	margin: 0 32px;
+}

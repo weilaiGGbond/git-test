@@ -1,0 +1,66 @@
+/*消除浏览器默认内外边框*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0);
+	z-index: 10;
+	position: fixed;
+}
+
+.logo {
+	margin-right: 100px;
+}
+
+.nav {
+	display: flex;
+	list-style: none;
+	margin: 0px 70px;
+}
+
+.nav li {
+	margin: 0px 30px;
+
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+	font-size: 15px;
+}
+
+.header .nav :hover a {
+	color: black;
+}
+.round{
+	height: 60px;
+	color: rgb(0,82,217);
+	background-color: #fff;
+	width: 60px;
+	border-radius: 50%;
+	position: fixed;
+	z-index: 20;
+	border: 1px solid rgb(0,82,217);
+	left: 1100px;
+	bottom: 30px;
+	text-align: center;
+}
+.round a{
+	text-decoration: none;
+	display: block;
+	margin: 17px;
+	font-size: 15px;
+}
+.round:hover a{
+	color:white;
+	
+}
+.round:hover{
+	background-color:rgb(0,82,217);
+}

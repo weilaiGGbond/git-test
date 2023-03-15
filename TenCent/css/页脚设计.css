@@ -1,0 +1,75 @@
+.attUs img{
+	width: 25px;
+	height: 25px;
+	margin: 20px 10px;
+}
+.contectImg{
+	margin: 0 120px;
+}
+h3{
+	color: rgb(95,99,100);
+	font-size: 20px;
+	font-weight: 400;
+	display: inherit;
+	line-height: 4;
+}
+h4{
+	color: rgb(95,99,100);
+	font-weight: 400;
+	line-height: 2;
+}
+.footMain{
+	display: flex;
+	margin: 20px;
+}
+.footMain h4 {
+		cursor: pointer;
+}
+.attUs{
+	position: relative;
+	width: 100%;
+	height: 65px;
+	border-bottom: #e6e6e6 1px solid;
+}
+.joinUs{
+	margin: 20px 100px 20px 20px;
+	
+}
+.conUs{
+	margin: 20px;
+}
+.lawMes{
+	margin:  20px 100px;
+}
+.footLogo{
+	margin:100px 150px;
+	width: 200px;
+}
+.smallText span{
+	color: rgb(95,99,100);
+	    font-size: 13px;
+	    font-weight: 400;
+		margin: 0 10px;
+		cursor: pointer;
+}
+#Copyright{
+	color: rgb(95,99,100);
+	    font-size: 13px;
+	    font-weight: 400;
+		margin: 0 10px;
+}
+.colorGreen{
+	display: inline;
+}
+.colorRed{
+	display: inline;
+}
+.colorBlue{
+	display: inline;
+}
+.lightBlue{
+	display: inline;
+}
+.contectImg .colorGreen :hover{
+background-color:  rgb(26,173,25);
+}
